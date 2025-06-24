@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
 </head>
 <body>
-    
+    <header>
+         <h1>Este es un formulario </h1>
+         <hr />
+          <p>Aquí vas a poder completar algunos detalles personales que nos ayudarán a identificarte de una manera más fácil </p>
+    </header>
+   
+    <main>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+       <input type="text" name="name" placeholder="Name" />
+        <br><br> 
+
+         <label for="lastname">Lastname:</label>
+        <input type="text" name="lastname" placeholder="Lastname" />
+        <br><br>
+
+     <label for="name">Email:</label>
+        <input type="text" name="email" placeholder="Email" />
+        <br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="number" name="phone" placeholder="Phone"
+         />
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" placeholder="Age" />
+        <br><br>
+
+        <label for="pasword">Password:</label>
+        <input type="password" name="password" placeholder="Password" />
+        <br><br>
+<hr />
+<h4>Genre</h4>
+        <input type="radio" name="genre" value="female"> Female
+        <input type="radio" name="genre" value="male"> Male
+        <input type="radio" name="genre" value="male"> Non-binary
+        <br><br>
+</main>
+<footer>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+</footer>
+    </form>
 </body>
 </html>
