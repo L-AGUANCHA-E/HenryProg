@@ -1,0 +1,60 @@
+.fondo {
+  background-color: pink;
+}
+
+.miTexto {
+  color: violet;
+  font-size: 80px;
+}
+h2 {
+  color: lightcoral;
+  font-size: 2em;
+}
+
+.title {
+  color: darkblue;
+  
+}
+
+h5 {
+  color: darkgreen;
+  font-size: 60px;
+}
+
+.header {
+  background-color: whitesmoke;
+    color: #724570;
+  padding: 20px;
+  border: 0.5vw solid darkslategray;
+    border-radius: 20px;
+  text-align: center;
+  margin: auto;
+  transition: background-color 0.5s, color 1.5s;
+  /* transition permite que el cambio de color con hover sea gradual */
+} 
+
+.imagenes img{
+
+  border-radius: 10px;
+}
+
+
+.header:hover {
+  background-color: #c2aac1;
+  color: darkslateblue;
+}
+
+#cards-container {
+    background-color: #724570;
+    width: 85%;
+    margin: auto;
+    margin-top: 1.5rem;
+    border: 2x solid #c2aac1;
+    border-radius: 10px;
+    padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+
+}

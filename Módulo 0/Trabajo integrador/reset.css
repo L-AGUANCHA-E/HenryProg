@@ -1,0 +1,31 @@
+/* Reset CSS básico para eliminar márgenes, bordes, paddings y otros estilos automáticos */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+/* Elimina estilos predeterminados de elementos HTML comunes */
+html, body {
+  height: 100%;
+  line-height: 1;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Evita que los enlaces tengan estilos por defecto */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Lista sin bullets ni paddings */
+ul,
+ol {
+  list-style: none;
+}

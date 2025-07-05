@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi página web</title>
+    <link rel="stylesheet" type="text/css" href="./estilos.css"/>
+    <!-- lo más importante es que el archivo estilos.css esté en la misma carpeta que este index.html y siempre poderlos linkear -->
 </head>
-<body>
+
+<header>
+    <h1 class="header">Primeros estilos con CSS class  </h1>
+</header>
+
+<main class="fondo">
+    <article>
+        <div id="cards-container"> 
+
+            <div class="imagenes"> 
+                 <img src="./Jirafa.jpeg" alt="Imagen de una jirafa"width="400" height="300"> 
+             </div>
+
+             <div class="imagenes"> 
+        <img src="./RINO.jpg" alt="Imagen de un rinoceronte"width="400"  height="300">
+              </div>
+   
+            <div class="imagenes">
+        <img src="./Vaca.jpeg" alt="Imagen de una vaca"width="380" height="300">
+            </div>
+
+        </div>
+    </article>
+
+
+   
     
-</body>
+    <p class="miTexto"> Esta es mi página web y le daré estilos.</p>
+
+
+    <h2>Dándole color diferente solo a esta frase</h2>
+
+    <h2 class="title">Y dándole color a todos los títulos desde aquí</h2>
+    <h3 class="title">Este es un h3, pero va a tener el mismo color </h3>
+    <h4 class="title">Va a ocurrir lo mismo con este h4</h4>
+
+    <h5>Este h5 va a tener un diseño más grande, y un color individual</h5>
+</main>
 </html>

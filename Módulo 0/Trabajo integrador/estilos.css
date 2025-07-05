@@ -1,0 +1,564 @@
+
+
+.navbar {
+  background-color: #77589b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+
+
+}
+
+.bannerlogo img {
+  width: 220px;
+  margin-left: 3em;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-right: 3em;
+  font-size: 1.3em;
+  color: white;
+}
+
+.nav-links a {
+  color: inherit;
+  box-sizing: border-box;
+  padding: 0.5em;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  padding: 1.5px 3px 1.5px 3px;
+}
+
+.nav-links a:hover {
+  background-color: #7148a0;
+  color: white;
+  border-radius: 7px;
+}
+
+
+.general {
+  display: flex;
+}
+
+.h3 h3 {
+  padding: 0.2em 0.4em;
+  background-color: #e0c7fd;
+  border-radius: 3em;
+  margin-top: 3.7em;
+  margin-left: 3em;
+  font-size: 1.7em;
+  width: fit-content;
+}
+
+.Henry {
+  margin-top: 20px;
+  font-size: 4.5em;
+  margin-left: 1.2em;
+  font-weight: 550;
+  font-family: outfit;
+  font-family: 'Poppins', sans-serif;
+}
+
+.SAS {
+  background-color: yellow;
+  font-size: 4.5em;
+  border-radius: 70px;
+  padding: 10px 40px 20px 25px;
+  margin-left: 1em;
+  font-family: outfit;
+  font-weight: bold;
+  margin-top: 0.2em;
+  font-family: sans-serif;
+  width: fit-content;
+}
+
+.h2 h2 {
+  margin-top: 1.5em;
+  margin-left: 4.5em;
+  font-size: 1.3em;
+  color: rgb(83, 83, 83);
+  font-family: poppins;
+  justify-content: center;
+}
+
+.text { 
+    
+    font-family: system-ui;
+}
+
+.imagen img {
+  width: 30.5em;
+  margin-left: 11em;
+  margin-top: 6.3em;
+  border-radius: 10px;
+  height: 32em;
+}
+
+.maincontent {
+  display: flex;
+margin-left: 13em;
+}
+
+
+
+
+/*Generador de contrasenas*/
+
+
+
+.central {
+  display: flex;
+  flex-direction:
+  column; /*If u'r using the command ''flex-direction then u can center
+ or anywhere u can't use justify content now u have to use ''align-items'' if it is under same class. */
+  background-color: white;
+  align-items: center;
+}
+
+.tit1 {
+  margin-top: 1.2em;
+  font-family: sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.subti1 {
+  background-color: yellow;
+  padding: 1em 3.5em;
+  border-radius: 70px;
+  font-family: sans-serif;
+  font-weight: medium;
+  margin-top: 2.2em;
+  font-size: 1.2em;
+}
+
+.caracteristicas {
+  margin-top: 3em;
+  background-color: #bbb9b9;
+  padding: 1em 36em;
+
+}
+
+.caracteristica1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-family: sans-serif;
+  font-size: 1.2em;
+
+}
+
+.caracteristica2 {
+   font-family: sans-serif;
+  font-size: 1.2em;
+}
+
+.caracteristica3 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+   font-family: sans-serif;
+  font-size: 1.2em;
+}
+
+.caracteristica4 {
+   font-family: sans-serif;
+  font-size: 1.2em;
+
+}
+
+button{
+  padding: 0.8em 2em;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+}
+
+.boton{
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  font-family: sans-serif;
+  font-size: 1.3em;
+}
+
+.input {
+  border-radius: 8px;
+  padding: 0.7em;
+  width: 4em;
+  margin-left: 0.5em;
+}
+
+
+
+
+/*CAJA FUERTE*/
+
+
+
+
+.central2 {
+ display: flex;
+flex-direction: column; /*If u'r using the command ''flex-direction then u can center
+ or anywhere u can't use justify content now u have to use ''align-items'' if it is under same class. */
+background-color: white;
+align-items: center;
+}
+
+.tit2 {
+  margin-top: 1.2em;
+  font-family: sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.subti2 {
+ background-color: yellow;
+  padding: 1em 3.5em;
+  border-radius: 70px;
+  font-family: sans-serif;
+  font-weight: medium;
+  margin-top: 2.2em;
+  font-size: 1.2em;
+}
+
+.line1 {
+  display: flex;
+  padding-top: 3em;
+  font-family: sans-serif;
+  font-size: 1.4em;
+}
+
+
+.subline1 {
+  margin-right: 5em
+}
+
+
+.line2 {
+  display: flex;
+  padding-top: 2em;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 1.4em;
+}
+
+.buttons {
+  display: flex;
+ justify-content: center;
+  gap: 1em;
+  margin-top: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.button2{
+  display: flex;
+  margin-top: -0.5em;
+  margin-left: 1em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button2 button {
+ background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 0.8em 2em;
+ 
+}
+
+
+.buttons button {
+   background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 0.8em 2em;
+  font-family: sans-serif;
+  font-size: 1.3em;
+}
+
+
+.line2 input {
+margin-left: 1em;
+}
+
+
+.bloquefondo {
+margin-top: 3em;
+  background-color: #bbb9b9;
+  padding: 0.5em 8em 5em 8em;
+
+}
+
+.bloquefondo input {
+  border-radius: 8px;
+  padding: 0.5em;
+  width: 10em;
+  margin-left: 0.5em;
+  margin-right: 1.5em;
+}
+
+
+
+
+/*MONITOREO DE ACTIVIDAD*/
+
+
+
+
+
+.general2 {
+display: flex;
+flex-direction: column; /*If u'r using the command ''flex-direction then u can center
+ or anywhere u can't use justify content now u have to use ''align-items'' if it is under same class. */
+align-items: center;
+}
+
+.tit3 {
+  margin-top: 1.2em;
+  font-family: sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+
+.subti3 {
+  background-color: yellow;
+  padding: 1em 3.5em;
+  border-radius: 70px;
+  font-family: sans-serif;
+  font-weight: medium;
+  margin-top: 2.2em;
+  font-size: 1.2em;
+}
+
+.linea1{
+  display: flex;
+  align-items: center;
+  margin-top: 3em;
+  gap: 1em;
+}
+
+.linea1 label {
+  font-size: 1.3em;
+  font-family: sans-serif;
+}
+
+.linea1 button {
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+
+.linea2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.linea2 label {
+   font-size: 1.3em;
+  font-family: sans-serif;
+  
+}
+
+.linea2 button {
+   font-family: sans-serif;
+  font-size: 1.2em;
+}
+
+
+.linea3 {
+display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  
+}
+
+.linea3 label {
+   font-size: 1.3em;
+  font-family: sans-serif;
+}
+
+.linea3 button {
+   font-family: sans-serif;
+  font-size: 1.2em;
+
+}
+
+.linea4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.linea4 label {
+   font-size: 1.3em;
+  font-family: sans-serif;
+}
+
+.linea4 button {
+   font-family: sans-serif;
+  font-size: 1.2em;
+}
+
+.npt {
+   border-radius: 8px;
+  padding: 0.7em;
+  width: 13em;
+  margin-left: 0.5em;
+  margin-right: 1.5em;
+}
+
+.subgeneral {
+margin-top: 3em;
+  background-color: #bbb9b9;
+  padding: 0.5em 15em 5em 15em;
+}
+
+
+
+/*Gestion de Usuario*/
+
+
+
+
+
+.general3 {
+display: flex;
+flex-direction: column; /*If u'r using the command ''flex-direction then u can center
+ or anywhere u can't use justify content now u have to use ''align-items'' if it is under same class. */
+align-items: center;
+}
+
+.tit4 {
+  margin-top: 1.2em;
+  font-family: sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+
+.subti4 {
+  background-color: yellow;
+  padding: 1em 3.5em;
+  border-radius: 70px;
+  font-family: sans-serif;
+  font-weight: medium;
+  margin-top: 2.2em;
+  font-size: 1.2em;
+}
+
+
+
+.perfiles label {
+  font-size: 1.3em ;
+  font-family: sans-serif;
+}
+
+.perfiles input{
+  width: 13em;
+  padding: 0.3em;
+  border-radius: 8px;
+   margin-left: 0.5em;
+  margin-right: 1.5em;
+}
+
+
+.perfiles button{
+  font-family: sans-serif;
+}
+
+.btn-input {
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+.acceso input {
+  border-radius: 8px;
+  padding: 0.2em;
+  width: 10em;
+}
+
+.antiguedad{
+   display: flex;
+    align-items: center;
+    gap: 1.5em;
+    margin-top: 2em;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+.antiguedad label{
+  font-size: 1.3em;
+}
+
+
+.administradores{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    margin-top: 2em;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+.administradores label{
+  font-size: 1.3em ;
+}
+
+
+.administradores button{
+    width: 6em;
+}
+.acceso{
+    font-size: 1.2em;
+}
+.accesotit{
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+    justify-content: center;
+}
+.usuario{
+    font-family: sans-serif;
+    margin-top: 2em;
+}
+.usuario input{
+    width: 13em;
+}
+.codigo-acceso{
+    font-family: sans-serif;
+    margin-top: 1.3em;
+}
+.codigo-acceso input{
+    width: 13em;
+}
+.acceso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(77, 76, 76)
+}
+.acceso button{
+    margin-top: 1.2em;
+    width: 15em;
+}
+
+#Perfiles::placeholder {
+  font-family: sans-serif;
+  font-size: 17.5px;
+  color: #888;
+}
+
+.backi4 {
+  margin-top: 1.5em;
+  background-color: #bbb9b9;
+  padding: 0.5em 25em 1em 25em;
+}
