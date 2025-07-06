@@ -486,8 +486,8 @@ align-items: center;
 .antiguedad{
    display: flex;
     align-items: center;
-    gap: 1.5em;
-    margin-top: 2em;
+    gap: 1.2em;
+    margin-top: 1.4em;
     font-family: sans-serif;
     justify-content: center;
 }
@@ -501,7 +501,7 @@ align-items: center;
     display: flex;
     align-items: center;
     gap: 1.5em;
-    margin-top: 2em;
+    margin-top: 1.4em;
     font-family: sans-serif;
     justify-content: center;
 }
@@ -521,14 +521,14 @@ align-items: center;
     font-size: 1.2em;
     display: flex;
     align-items: center;
-    margin-top: 2em;
+    margin-top: 1.2em;
     font-family: sans-serif;
     font-weight: bold;
     justify-content: center;
 }
 .usuario{
     font-family: sans-serif;
-    margin-top: 2em;
+    margin-top: 1.2em;
 }
 .usuario input{
     width: 13em;
